@@ -189,13 +189,14 @@ body {
 }
 
 .channel-title {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   color: #19202C;
   font-weight: bold;
   font-size: 26px;
   line-height: 33px;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .channel-avatar {
@@ -225,6 +226,7 @@ body {
   height: 150px;
   object-fit: cover;
 }
+
 
 .video-duration {
   position: absolute;
@@ -289,5 +291,53 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 66px;
+}
 
+.slider-buttons3 {
+  position: absolute;
+  right: 8%;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+}
+
+.slider-buttons4 {
+  position: absolute;
+  right: 20%;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66px;
+}
+
+.add {
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+  margin-left: 19px;
+  text-decoration: none;
+  font-weight: 100;
+
+
+}
+
+.video-thumb2 {
+  width: 540px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 14px;
+  position: relative;
+}
+
+.thumbnail2 {
+  width: 540px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.video-card2 {
+  width: 540px;
 }
